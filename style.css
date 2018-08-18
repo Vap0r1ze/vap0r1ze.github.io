@@ -1,0 +1,28 @@
+/* Color */
+.bg-monokai { background: #272822; }
+.container { color: #f8f8e0; }
+.info { color: #e6db74; }
+.escaped { color: #ae81ff; }
+.project { background: #1e1f1c; }
+.project-icon { background: rgba(0,0,0,.1); color: rgba(255,255,255,.1); }
+.project-name { color: #f8f8e0; }
+.project-desc { color: rgba(255,255,255,.7); }
+
+/* Text */
+.container {
+  font-family: 'Source Code Pro', monospace;
+  font-size: 0;
+}
+a { color: #f92672; }
+a:not(.underline) { text-decoration: none; }
+p, span { font-size: 1rem; }
+
+/* Cursor */
+.cursor {
+  animation: blink 1s step-start infinite;
+  border: 1px solid #f8f8e0;
+  margin: 0 -1px;
+}
+@keyframes blink {
+  50% { opacity: 0; }
+}
